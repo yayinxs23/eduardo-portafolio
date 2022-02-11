@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    gap: 20px;
+    background-color: rgb(233, 237, 240);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px;
+    background-color: rgb(243, 242, 242);
+    margin-bottom: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.contact-me{
+    display:grid;
+    justify-content: center;
+    padding: 50px;
+    
+}

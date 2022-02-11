@@ -1,0 +1,22 @@
+*{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.drums{
+    display:grid;
+    grid-template-rows:repeat(3,500px);
+    grid-template-columns: repeat(3,500px);
+    justify-content: center;
+    grid-gap: 10px;
+    
+}
